@@ -1,1 +1,1 @@
-# aqua-solution
+# Aqua Solution
