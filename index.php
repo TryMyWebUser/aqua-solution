@@ -245,102 +245,51 @@
                 <div class="container-fluid">
                     <div class="row portfolio-active">
                         <div class="col-xl-4">
-                            <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                                <div class="project-thumb">
-                                    <img src="assets/img/portfolio/p_img01.png" alt="img" class="img" />
-                                </div>
-                                <div class="project-info">
-                                    <h4>Materals Management</h4>
-                                    <a href="#">Take a Look <img src="assets/img/portfolio/right_icon.svg" alt="img" /> </a>
-                                </div>
+                            <div class="single-project mb-30 wow fadeInUp animated" style="box-shadow: 0 0 6px;" data-animation="fadeInDown animated" data-delay=".2s">
+                                <a href="single-product.php">
+                                    <div class="project-thumb">
+                                        <img src="assets/img/product/wp.png" alt="img" class="img" />
+                                    </div>
+                                    <div class="project-info">
+                                        <h4 class="m-0">Water Purifier</h4>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col-xl-4">
-                            <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                                <div class="project-thumb">
-                                    <img src="assets/img/portfolio/p_img02.png" alt="img" class="img" />
-                                </div>
-                                <div class="project-info">
-                                    <h4>Materals Management</h4>
-                                    <a href="#">Take a Look <img src="assets/img/portfolio/right_icon.svg" alt="img" /> </a>
-                                </div>
+                            <div class="single-project mb-30 wow fadeInUp animated" style="box-shadow: 0 0 6px;" data-animation="fadeInDown animated" data-delay=".2s">
+                                <a href="single-product.php">
+                                    <div class="project-thumb">
+                                        <img src="assets/img/product/vm.png" alt="img" class="img" />
+                                    </div>
+                                    <div class="project-info">
+                                        <h4 class="m-0">Vacuum Cleaner</h4>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col-xl-4">
-                            <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                                <div class="project-thumb">
-                                    <img src="assets/img/portfolio/p_img03.png" alt="img" class="img" />
-                                </div>
-                                <div class="project-info">
-                                    <h4>Materals Management</h4>
-                                    <a href="#">Take a Look <img src="assets/img/portfolio/right_icon.svg" alt="img" /> </a>
-                                </div>
+                            <div class="single-project mb-30 wow fadeInUp animated" style="box-shadow: 0 0 6px;" data-animation="fadeInDown animated" data-delay=".2s">
+                                <a href="single-product.php">
+                                    <div class="project-thumb">
+                                        <img src="assets/img/product/ws.png" alt="img" class="img" />
+                                    </div>
+                                    <div class="project-info">
+                                        <h4 class="m-0">Water Softener</h4>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col-xl-4">
-                            <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                                <div class="project-thumb">
-                                    <img src="assets/img/portfolio/p_img04.png" alt="img" class="img" />
-                                </div>
-                                <div class="project-info">
-                                    <h4>Materals Management</h4>
-                                    <a href="#">Take a Look <img src="assets/img/portfolio/right_icon.svg" alt="img" /> </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4">
-                            <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                                <div class="project-thumb">
-                                    <img src="assets/img/portfolio/p_img05.png" alt="img" class="img" />
-                                </div>
-                                <div class="project-info">
-                                    <h4>Materals Management</h4>
-                                    <a href="#">Take a Look <img src="assets/img/portfolio/right_icon.svg" alt="img" /> </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4">
-                            <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                                <div class="project-thumb">
-                                    <img src="assets/img/portfolio/p_img01.png" alt="img" class="img" />
-                                </div>
-                                <div class="project-info">
-                                    <h4>Materals Management</h4>
-                                    <a href="#">Take a Look <img src="assets/img/portfolio/right_icon.svg" alt="img" /> </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4">
-                            <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                                <div class="project-thumb">
-                                    <img src="assets/img/portfolio/p_img02.png" alt="img" class="img" />
-                                </div>
-                                <div class="project-info">
-                                    <h4>Materals Management</h4>
-                                    <a href="#">Take a Look <img src="assets/img/portfolio/right_icon.svg" alt="img" /> </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4">
-                            <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                                <div class="project-thumb">
-                                    <img src="assets/img/portfolio/p_img03.png" alt="img" class="img" />
-                                </div>
-                                <div class="project-info">
-                                    <h4>Materals Management</h4>
-                                    <a href="#">Take a Look <img src="assets/img/portfolio/right_icon.svg" alt="img" /> </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4">
-                            <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                                <div class="project-thumb">
-                                    <img src="assets/img/portfolio/p_img04.png" alt="img" class="img" />
-                                </div>
-                                <div class="project-info">
-                                    <h4>Materals Management</h4>
-                                    <a href="#">Take a Look <img src="assets/img/portfolio/right_icon.svg" alt="img" /> </a>
-                                </div>
+                            <div class="single-project mb-30 wow fadeInUp animated" style="box-shadow: 0 0 6px;" data-animation="fadeInDown animated" data-delay=".2s">
+                                <a href="single-product.php">
+                                    <div class="project-thumb">
+                                        <img src="assets/img/product/a.png" alt="img" class="img" />
+                                    </div>
+                                    <div class="project-info">
+                                        <h4 class="m-0">Aquaguard</h4>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>

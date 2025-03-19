@@ -1,5 +1,5 @@
         <!-- footer -->
-        <footer class="footer-bg footer-p pt-95 pb-30">
+        <footer class="footer-bg footer-p pt-95">
             <div class="footer-top pb-30">
                 <div class="container">
                     <div class="row justify-content-between">
