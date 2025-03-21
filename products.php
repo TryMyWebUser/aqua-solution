@@ -1,4 +1,4 @@
-<?php include "temp/header.php" ?>
+<?php include "libs/load.php"; include "temp/header.php" ?>
 
         <!-- main-area -->
         <main>
@@ -27,7 +27,25 @@
             <section class="shop-area pt-100 pb-100 p-relative wow fadeInUp animated" data-animation="fadeInUp animated" data-delay=".2s">
                 <div class="container">
                     <div class="row align-items-center">
+                        <?php
+                            $product = Operations::getCategory();
+                            if (!empty($product)) {
+                                foreach ($product as $pro) {
+                        ?>
                         <div class="col-lg-3 col-md-6">
+                            <div class="product mb-40">
+                                <div class="product__img" style="box-shadow: 0 0 1px #000;">
+                                    <a href="single-product.php?data=<?= $pro['category']; ?>">
+                                        <img src="assets/<?= $pro['img']; ?>" alt="Product Image Not Found" />
+                                    </a>
+                                </div>
+                                <div class="product__content text-center pt-30">
+                                    <h4 class="pro-title"><a href="single-product.php?data=<?= $pro['category']; ?>"><?= $pro['category']; ?></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <?php } } else { echo "Product Not Found"; } ?>
+                        <!-- <div class="col-lg-3 col-md-6">
                             <div class="product mb-40">
                                 <div class="product__img" style="box-shadow: 0 0 1px #000;">
                                     <a href="single-product.php">
@@ -74,7 +92,7 @@
                                     <h4 class="pro-title"><a href="single-product.php">Aquaguard</a></h4>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>

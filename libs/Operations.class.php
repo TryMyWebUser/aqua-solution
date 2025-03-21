@@ -17,6 +17,14 @@ class Operations
         $result = $conn->query($sql);
         return iterator_to_array($result);
     }
+    public static function getPro()
+    {
+        $cate = $_GET['data'];
+        $conn = Database::getConnect();
+        $sql = "SELECT * FROM `products` WHERE `category` = '$cate'";
+        $result = $conn->query($sql);
+        return iterator_to_array($result);
+    }
     public static function getCateChecker($conn)
     {
         $sql = "SELECT * FROM `category` ORDER BY `created_at` ASC";

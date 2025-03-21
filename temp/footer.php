@@ -139,6 +139,7 @@
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
         <script src="assets/js/element-in-view.js"></script>
         <script src="assets/js/main.js"></script>
+        <a href="https://wa.me/919345614446" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
     </body>
 
 </html>

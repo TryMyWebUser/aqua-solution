@@ -49,7 +49,7 @@
                 <!-- Navbar End -->
 
                 <div class="container-fluid py-4 px-4">
-                    <div class="row g-4">
+                    <div class="row g-4" data-masonry='{"percentPosition": true }'>
 
                         <?php
                             if (!empty($products)) {
@@ -92,6 +92,7 @@
             <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
         </div>
 
+        <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
         <?php include "template/footer.php"; ?>
 
     </body>

@@ -1,4 +1,4 @@
-<?php include "temp/header.php" ?>
+<?php include "libs/load.php"; include "temp/header.php" ?>
 
         <!-- main-area -->
         <main>
@@ -26,7 +26,32 @@
             <!-- shop-banner-area start -->
             <section class="shop-banner-area pt-95 pb-90 wow fadeInUp animated" data-animation="fadeInUp animated" data-delay=".2s">
                 <div class="container">
+                    <?php
+                        $product = Operations::getPro();
+                        if (!empty($product)) {
+                            foreach ($product as $pro) {
+                    ?>
                     <div class="row">
+                        <div class="col-xl-6">
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel">
+                                    <div class="product-large-img">
+                                        <img src="assets/<?= $pro['img'] ?>" alt="Product Image Not Found" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="product-details mb-30">
+                                <div class="product-details-title">
+                                    <h1><?= $pro['title']; ?></h1>
+                                </div>
+                                <p><?= $pro['dec']; ?></p>
+                            </div>
+                        </div>
+                    </div><br><br>
+                    <?php } } else { echo "Product Not Found"; } ?>
+                    <!-- <div class="row">
                         <div class="col-xl-6">
                             <div class="tab-content" id="myTabContent2">
                                 <div class="tab-pane fade show active" id="home" role="tabpanel">
@@ -41,17 +66,13 @@
                                 <div class="product-details-title">
                                     <p>Product</p>
                                     <h1>Water Purifier</h1>
-                                    <!-- <div class="price details-price pb-30 mb-20">
-                                        <span>$700.00</span>
-                                        <span class="old-price">$820.00</span>
-                                    </div> -->
                                 </div>
                                 <p>
                                 At Harmony Home, we offer a wide range of Water Purifiers that ensure pure, safe, and healthy drinking water by removing impurities, harmful chemicals, and bacteria. Our advanced purification systems, including RO, UV, and UF technologies, are designed to cater to various water quality needs, providing consistent performance and reliability. Our purifiers not only safeguard your family’s health but also improve the taste of water, making it safe for daily consumption. Built with high-quality materials and innovative technology, our water purifiers are easy to maintain and come with long-lasting durability. Whether you're looking for a new installation or an upgrade, Harmony Home provides the best solutions to meet your water purification needs.
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </section>
             <!-- shop-banner-area end -->
