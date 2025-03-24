@@ -29,6 +29,13 @@
                             <a href="viewProduct.php" class="dropdown-item">View Products</a>
                         </div>
                     </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-star me-2"></i>Reviews</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="addReview.php" class="dropdown-item">Add Review</a>
+                            <a href="viewReviews.php" class="dropdown-item">View Reviews</a>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </div>

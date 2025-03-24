@@ -1,4 +1,78 @@
-<?php include "temp/header.php" ?>
+<?php include "libs/load.php"; include "temp/header.php"; ?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<style>
+    .col-center {
+        margin: 0 auto;
+        float: none !important;
+    }
+    .carousel {
+        margin: 50px auto;
+        padding: 0 70px;
+    }
+    .carousel-item {
+        color: #999;
+        font-size: 14px;
+        text-align: center;
+        overflow: hidden;
+        /* min-height: 290px; */
+    }
+    .carousel .item .img-box {
+        width: 135px;
+        height: 135px;
+        margin: 0 auto;
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 50%;
+    }
+    .carousel .img-box img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        border-radius: 50%;
+    }
+    .carousel .overview {
+        font-style: italic;
+    }
+    .carousel .overview b {
+        text-transform: uppercase;
+        color: #db584e;
+    }
+    .carousel .carousel-control {
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+        top: 50%;
+        background: none;
+    }
+    .carousel-control i {
+        font-size: 68px;
+        line-height: 42px;
+        position: absolute;
+        display: inline-block;
+        color: rgba(0, 0, 0, 0.8);
+        text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+    }
+    .carousel .carousel-indicators {
+        bottom: -40px;
+    }
+    .carousel-indicators li,
+    .carousel-indicators li.active {
+        width: 10px;
+        height: 10px;
+        margin: 1px 3px;
+        border-radius: 50%;
+    }
+    .carousel-indicators li {
+        background: #999;
+        border-color: transparent;
+        box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    .carousel-indicators li.active {
+        background: #555;
+        box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+    }
+</style>
 
         <!-- main-area -->
         <main>
@@ -15,7 +89,7 @@
                                             Harmony <span>Home</span>
                                         </h2>
                                         <p data-animation="fadeInUp" data-delay=".6s">
-                                        Harmony Home was established in 2011 by Shelva Kumar R.K. with a vision to provide high-quality home solutions.
+                                        Harmony Home was established in 2011 by Shelva Kummar RK. with a vision to provide high-quality home solutions.
                                         </p>
                                         <div class="slider-btn mt-40">
                                             <a href="tel:+919626414446" class="btn ss-btn" data-animation="fadeInRight" data-delay=".5s">For Enquiry</a>
@@ -37,7 +111,7 @@
                                             Harmony <span>Home</span>
                                         </h2>
                                         <p data-animation="fadeInUp" data-delay=".6s">
-                                        Harmony Home was established in 2011 by Shelva Kumar R.K. with a vision to provide high-quality home solutions.
+                                        Harmony Home was established in 2011 by Shelva Kummar RK. with a vision to provide high-quality home solutions.
                                         </p>
                                         <div class="slider-btn mt-40">
                                             <a href="tel:+919626414446" class="btn ss-btn" data-animation="fadeInRight" data-delay=".5s">For Enquiry</a>
@@ -59,7 +133,7 @@
                                             Harmony <span>Home</span>
                                         </h2>
                                         <p data-animation="fadeInUp" data-delay=".6s">
-                                        Harmony Home was established in 2011 by Shelva Kumar R.K. with a vision to provide high-quality home solutions.
+                                        Harmony Home was established in 2011 by Shelva Kummar RK. with a vision to provide high-quality home solutions.
                                         </p>
                                         <div class="slider-btn mt-40">
                                             <a href="tel:+919626414446" class="btn ss-btn" data-animation="fadeInRight" data-delay=".5s">For Enquiry</a>
@@ -81,7 +155,7 @@
                                             Harmony <span>Home</span>
                                         </h2>
                                         <p data-animation="fadeInUp" data-delay=".6s">
-                                        Harmony Home was established in 2011 by Shelva Kumar R.K. with a vision to provide high-quality home solutions.
+                                        Harmony Home was established in 2011 by Shelva Kummar RK. with a vision to provide high-quality home solutions.
                                         </p>
                                         <div class="slider-btn mt-40">
                                             <a href="tel:+919626414446" class="btn ss-btn" data-animation="fadeInRight" data-delay=".5s">For Enquiry</a>
@@ -108,7 +182,7 @@
                                     </span>
                                     <h2>Harmony Home</h2>
                                 </div>
-                                <p>Harmony Home was established in 2011 by Shelva Kumar R.K. with a vision to provide high-quality home solutions. Over the years, we have built a reputation for offering top-notch products and reliable services that ensure customer satisfaction. Our expertise lies in delivering advanced home appliances that enhance your lifestyle and keep your home safe and clean.</p>
+                                <p>Harmony Home was established in 2011 by Shelva Kummar RK. with a vision to provide high-quality home solutions. Over the years, we have built a reputation for offering top-notch products and reliable services that ensure customer satisfaction. Our expertise lies in delivering advanced home appliances that enhance your lifestyle and keep your home safe and clean.</p>
                                 <div class="slider-btn mt-30">
                                     <a href="#" class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Read More</a>
                                     <div class="btn-after" data-animation="fadeInRight" data-delay=".8s"></div>
@@ -153,7 +227,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-12">
                             <div class="single-counter text-center wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
                                 <img src="assets/img/count/icon3.png" alt="img" />
-                                <div class="counter p-relative"><span class="count">15</span><small>+</small></div>
+                                <div class="counter p-relative"><span class="count">14</span><small>+</small></div>
                                 <p>Experience</p>
                                 <div class="line"></div>
                             </div>
@@ -244,61 +318,38 @@
                 </div>
                 <div class="container-fluid">
                     <div class="row portfolio-active">
+                        <?php
+                            $conn = Database::getConnect();
+                            $product = Operations::getCateChecker($conn);
+                            if (!empty($product)) {
+                                foreach ($product as $pro) {
+                        ?>
                         <div class="col-xl-4">
                             <div class="single-project mb-30 wow fadeInUp animated" style="box-shadow: 0 0 6px;" data-animation="fadeInDown animated" data-delay=".2s">
-                                <a href="single-product.php">
+                                <a href="single-product.php?data=<?= $pro['category']; ?>">
                                     <div class="project-thumb">
-                                        <img src="assets/img/product/wp.png" alt="img" class="img" />
+                                        <img src="assets/<?= $pro['img']; ?>" alt="img" class="img" />
                                     </div>
                                     <div class="project-info">
-                                        <h4 class="m-0">Water Purifier</h4>
+                                        <h4 class="m-0"><?= $pro['category']; ?></h4>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-4">
-                            <div class="single-project mb-30 wow fadeInUp animated" style="box-shadow: 0 0 6px;" data-animation="fadeInDown animated" data-delay=".2s">
-                                <a href="single-product.php">
-                                    <div class="project-thumb">
-                                        <img src="assets/img/product/vm.png" alt="img" class="img" />
-                                    </div>
-                                    <div class="project-info">
-                                        <h4 class="m-0">Vacuum Cleaner</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-4">
-                            <div class="single-project mb-30 wow fadeInUp animated" style="box-shadow: 0 0 6px;" data-animation="fadeInDown animated" data-delay=".2s">
-                                <a href="single-product.php">
-                                    <div class="project-thumb">
-                                        <img src="assets/img/product/ws.png" alt="img" class="img" />
-                                    </div>
-                                    <div class="project-info">
-                                        <h4 class="m-0">Water Softener</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-4">
-                            <div class="single-project mb-30 wow fadeInUp animated" style="box-shadow: 0 0 6px;" data-animation="fadeInDown animated" data-delay=".2s">
-                                <a href="single-product.php">
-                                    <div class="project-thumb">
-                                        <img src="assets/img/product/a.png" alt="img" class="img" />
-                                    </div>
-                                    <div class="project-info">
-                                        <h4 class="m-0">Aquaguard</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                        <?php } } else { echo "Product Not Found"; } ?>
                     </div>
                 </div>
             </section>
             <!-- project-area-end -->
 
             <!-- testimonial-area -->
-            <!-- <section
+            <style>
+                .gap-3 {
+                    gap: 0.5rem;
+                    color: #ffc107;
+                }
+            </style>
+            <section
                 id="testimonios"
                 class="testimonial-area testimonial-p pt-50 pb-100 fix"
                 style="background-image: url(assets/img/bg/testimonial_bg.png); background-size: contain; background-repeat: no-repeat; background-position: center center;">
@@ -313,80 +364,41 @@
                                 <h2>What Our Client’s Say’s</h2>
                             </div>
                             <div class="testimonial-active2">
-                                <div class="slider slider-for">
-                                    <div class="single-testimonial">
-                                        <div class="com-icon"><img src="assets/img/bg/Icon_comment.png" alt="img" /></div>
-                                        <p>
-                                            “Phasellus ut consequat elit. Donec dapibus, dolor ac mollis mollis, sapien lorem gravida magna, eu ullamcorper mi lectus a tortor. Aenean elementum tortor a sem pharetra, in accumsan odio
-                                            commodo. Nam ultricies ut enim nec accumsan. Vivamus vel nunc eu diam fringilla bibendum laoreet eget felis. Praesent justo mauris, tincidunt vitae nisi ultricies, condimentum finibus quam. Aenean
-                                            sed velit nulla. Etiam viverra scelerisque porta. Quisque ut dolor aliquam, gravida lacus at, tincidunt ex. Donec dapibus.
-                                        </p>
-                                        <div class="testi-author">
-                                            <img src="assets/img/testimonial/test_img01.png" alt="img" />
-                                            <div class="ta-info">
-                                                <h6>Mr Jone Dose</h6>
-                                                <span>SALES EXECUTIVE</span>
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Carousel -->
+                                    <div class="carousel-inner">
+                                        <?php
+                                            $reviews = Operations::getReviews($conn);
+                                            if (!empty($reviews)) {
+                                                foreach ($reviews as $index => $r) {
+                                        ?>
+                                        <div class="item carousel-item <?= $index == 0 ? 'active' : ''; ?>">
+                                            <p class="overview"><b><?= $r['name'] ?></b></p>
+                                            <div class="d-flex align-items-center justify-content-center gap-3">
+                                                <?php for ($i = 1; $i <= $r['rating']; $i++) { ?>
+                                                <p><i class="fa fa-star"></i></p>
+                                                <?php } ?>
                                             </div>
+                                            <p class="testimonial">
+                                                <?= $r['review']; ?>
+                                            </p>
                                         </div>
+                                        <?php } } else { echo "No Reviews"; } ?>
                                     </div>
-                                    <div class="single-testimonial">
-                                        <div class="com-icon"><img src="assets/img/bg/Icon_comment.png" alt="img" /></div>
-                                        <p>
-                                            “Phasellus ut consequat elit. Donec dapibus, dolor ac mollis mollis, sapien lorem gravida magna, eu ullamcorper mi lectus a tortor. Aenean elementum tortor a sem pharetra, in accumsan odio
-                                            commodo. Nam ultricies ut enim nec accumsan. Vivamus vel nunc eu diam fringilla bibendum laoreet eget felis. Praesent justo mauris, tincidunt vitae nisi ultricies, condimentum finibus quam. Aenean
-                                            sed velit nulla. Etiam viverra scelerisque porta. Quisque ut dolor aliquam, gravida lacus at, tincidunt ex. Donec dapibus..
-                                        </p>
-                                        <div class="testi-author">
-                                            <img src="assets/img/testimonial/test_img02.png" alt="img" />
-                                            <div class="ta-info">
-                                                <h6>Margie Jone</h6>
-                                                <span>Web Developer</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="single-testimonial">
-                                        <div class="com-icon"><img src="assets/img/bg/Icon_comment.png" alt="img" /></div>
-                                        <p>
-                                            “Phasellus ut consequat elit. Donec dapibus, dolor ac mollis mollis, sapien lorem gravida magna, eu ullamcorper mi lectus a tortor. Aenean elementum tortor a sem pharetra, in accumsan odio
-                                            commodo. Nam ultricies ut enim nec accumsan. Vivamus vel nunc eu diam fringilla bibendum laoreet eget felis. Praesent justo mauris, tincidunt vitae nisi ultricies, condimentum finibus quam. Aenean
-                                            sed velit nulla. Etiam viverra scelerisque porta. Quisque ut dolor aliquam, gravida lacus at, tincidunt ex. Donec dapibus.
-                                        </p>
-                                        <div class="testi-author">
-                                            <img src="assets/img/testimonial/test_img03.png" alt="img" />
-                                            <div class="ta-info">
-                                                <h6>Mr Jone Dose</h6>
-                                                <span>Web Developer</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="single-testimonial">
-                                        <div class="com-icon"><img src="assets/img/bg/Icon_comment.png" alt="img" /></div>
-                                        <p>
-                                            “Nam liber tempor cum soluta nobis eleifend option congue is nihil imper per tem por legere me doming vulputate velit esse molestiesoluta nobis eleifend option congue is nihil imper per tem por
-                                            legere me doming vulputate velit esse molestiesoluta nobis eleifend option congue is nihil imper .
-                                        </p>
-                                        <div class="testi-author">
-                                            <img src="assets/img/testimonial/test_img01.png" alt="img" />
-                                            <div class="ta-info">
-                                                <h6>Mr Jone Dose</h6>
-                                                <span>Web Developer</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="slider slider-nav">
-                                    <div class="testimonial-item"><img src="assets/img/testimonial/test_img01.png" alt="img" /></div>
-                                    <div class="testimonial-item"><img src="assets/img/testimonial/test_img02.png" alt="img" /></div>
-                                    <div class="testimonial-item"><img src="assets/img/testimonial/test_img03.png" alt="img" /></div>
-                                    <div class="testimonial-item"><img src="assets/img/testimonial/test_img01.png" alt="img" /></div>
+                                    <!-- Carousel Controls -->
+                                    <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                        <i class="fa fa-angle-left"></i>
+                                    </a>
+                                    <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                                        <i class="fa fa-angle-right"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-1"></div>
                     </div>
                 </div>
-            </section> -->
+            </section>
             <!-- testimonial-area-end -->
 
             <!-- counter-area -->
@@ -400,7 +412,7 @@
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-12">
                             <h2>Harmony <span>Home</span></h2>
-                            <p>Harmony Home was established in 2011 by Shelva Kumar R.K. with a vision to provide high-quality home solutions. Over the years, we have built a reputation for offering top-notch products and reliable services that ensure customer satisfaction.</p>
+                            <p>Harmony Home was established in 2011 by Shelva Kummar RK. with a vision to provide high-quality home solutions. Over the years, we have built a reputation for offering top-notch products and reliable services that ensure customer satisfaction.</p>
                             <div class="number"><a style="color: inherit;" href="tel:+919626414446">+91 96264 14446</a></div>
                         </div>
                     </div>

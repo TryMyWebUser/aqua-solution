@@ -215,6 +215,34 @@ class User
         }
     }
 
+    public static function setReview($rating, $name, $review)
+    {
+        $conn = Database::getConnect();
+
+        // Insert data into database
+        $sql = "INSERT INTO `review`(`rating`, `name`, `review`, `created_at`)
+                VALUES ('$rating', '$name', '$review', NOW())";
+
+        if ($conn->query($sql)) {
+            header("Location: viewReviews.php");
+            exit;
+        } else {
+            return "Error occurred while saving data: " . $conn->error;
+        }
+    }
+    public static function updateReview($rating, $name, $review, $getID, $conn)
+    {
+        // Insert data into database
+        $sql = "UPDATE `review` SET `rating` = '$rating', `name` = '$name', `review` = '$review', `created_at` = NOW() WHERE `id` = '$getID'";
+
+        if ($conn->query($sql)) {
+            header("Location: viewReviews.php");
+            exit;
+        } else {
+            return "Error occurred while saving data: " . $conn->error;
+        }
+    }
+
     public static function setGallery($img)
     {
         $conn = Database::getConnect();

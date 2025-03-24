@@ -36,7 +36,7 @@
                                     <h2>Harmony Home</h2>
                                 </div>
                                 <p>
-                                Harmony Home was founded in 2011 by Mr. Shelva Kumar R.K. and has since grown to become a trusted name in the sales and service of home appliances. With over a decade of experience in the industry, Harmony Home has established itself as a leading provider of Water Purifiers, Vacuum Cleaners, Water Softeners, and Aquaguard Systems. Mr. Shelva Kumar's deep knowledge of the latest technologies and his dedication to customer satisfaction have been key drivers of Harmony Home’s success. His expertise has empowered the service team to deliver top-notch installation, maintenance, and repair services, ensuring that customers receive reliable and high-performing products.
+                                Harmony Home was founded in 2011 by Mr. Shelva Kummar RK. and has since grown to become a trusted name in the sales and service of home appliances. With over a decade of experience in the industry, Harmony Home has established itself as a leading provider of Water Purifiers, Vacuum Cleaners, Water Softeners, and Aquaguard Systems. Mr.RK. Shelva Kummar's deep knowledge of the latest technologies and his dedication to customer satisfaction have been key drivers of Harmony Home’s success. His expertise has empowered the service team to deliver top-notch installation, maintenance, and repair services, ensuring that customers receive reliable and high-performing products.
                                 </p>
                                 <p>Harmony Home is a recognized service provider for all major brands of water purifiers, vacuum cleaners, and water softeners. Based in Coimbatore, Tamil Nadu, we offer repair, maintenance, and installation services, ensuring our customers experience the best quality and service. Our services are trusted by a growing customer base across various regions, and we take pride in our reputation for excellence.</p>
                                 <!-- <div class="row mt-20">
@@ -94,7 +94,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-12">
                             <div class="single-counter text-center wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
                                 <img src="assets/img/count/icon3.png" alt="img" />
-                                <div class="counter p-relative"><span class="count">15</span><small>+</small></div>
+                                <div class="counter p-relative"><span class="count">14</span><small>+</small></div>
                                 <p>Experience</p>
                                 <div class="line"></div>
                             </div>
@@ -250,7 +250,7 @@
                         </div>
                         <div class="col-lg-7 col-md-7 col-sm-12">
                             <h2>Harmony <span>Home</span></h2>
-                            <p>Harmony Home was established in 2011 by Shelva Kumar R.K. with a vision to provide high-quality home solutions. Over the years, we have built a reputation for offering top-notch products and reliable services that ensure customer satisfaction.</p>
+                            <p>Harmony Home was established in 2011 by Shelva Kummar RK. with a vision to provide high-quality home solutions. Over the years, we have built a reputation for offering top-notch products and reliable services that ensure customer satisfaction.</p>
                             <div class="number"><a style="color: inherit;" href="tel:+919626414446">+91 96264 14446</a></div>
                         </div>
                     </div>

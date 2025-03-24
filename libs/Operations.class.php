@@ -17,6 +17,12 @@ class Operations
         $result = $conn->query($sql);
         return iterator_to_array($result);
     }
+    public static function getReviews($conn)
+    {
+        $sql = "SELECT * FROM `review` ORDER BY `created_at` ASC";
+        $result = $conn->query($sql);
+        return iterator_to_array($result);
+    }
     public static function getPro()
     {
         $cate = $_GET['data'];
@@ -34,6 +40,12 @@ class Operations
     public static function getProductChecker($conn)
     {
         $sql = "SELECT * FROM `products` ORDER BY `created_at` ASC";
+        $result = $conn->query($sql);
+        return iterator_to_array($result);
+    }
+    public static function getReviewChecker($conn)
+    {
+        $sql = "SELECT * FROM `review` ORDER BY `created_at` ASC";
         $result = $conn->query($sql);
         return iterator_to_array($result);
     }
@@ -68,6 +80,13 @@ class Operations
     {
         $getID = $_GET['edit_id'];
         $sql = "SELECT * FROM `products` WHERE `id` = '$getID'";
+        $result = $conn->query($sql);
+        return $result ? $result->fetch_assoc() : null;
+    }
+    public static function getReview($conn)
+    {
+        $getID = $_GET['edit_id'];
+        $sql = "SELECT * FROM `review` WHERE `id` = '$getID'";
         $result = $conn->query($sql);
         return $result ? $result->fetch_assoc() : null;
     }
